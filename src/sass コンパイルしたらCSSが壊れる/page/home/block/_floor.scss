@@ -1,0 +1,24 @@
+.floor {
+  background: repeating-linear-gradient(
+    0,
+    #cdb5a5 0px,
+    #cdb5a5 15px,
+    #bc9c87 15px,
+    #bc9c87 30px
+  );
+  height: 100vh;
+  z-index: -101;
+  position: relative;
+}
+
+.character {
+  max-width: 180px;
+  position: absolute;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: -50px;
+  right: -10%;
+  left: 0;
+  z-index: 100;
+  margin: auto;
+}

@@ -1,0 +1,229 @@
+@charset "utf-8";
+html{
+    font-size: 62.5%;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.wrap {
+    height: 100vh;
+    display: flex;
+    max-width: 414px;
+    margin: 0 auto;
+    background-color: #FBDFDA;
+    flex-direction: column;
+    justify-content: center; // よこ
+    align-items: center; // 縦
+    overflow: hidden;
+    position: relative;
+}
+h1{
+    color: #5A2816;
+    position: relative;
+    z-index: 100;
+    font-size: 2.1rem;
+    text-align: center;
+    margin: 0 0 20% 0;
+}
+.circle01{
+    width: 226px;
+    height: 226px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    opacity: 0.06;
+    position: absolute;
+    top: -90px;
+    left: 49px;
+    z-index: 1;
+}
+.circle02{
+    width: 93px;
+    height: 93px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    opacity: 0.14;
+    position: absolute;
+    top: 68px;
+    left: 15px;
+    z-index: 1;
+}
+.circle03{
+    width: 501px;
+    height: 501px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    opacity: 0.14;
+    position: absolute;
+    top: 97px;
+    left: 58px;
+    z-index: 1;
+}
+.circle04{
+    width: 268px;
+    height: 268px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    opacity: 0.11;
+    position: absolute;
+    top: 406px;
+    left: -34px;
+    z-index: 1;
+}
+.circle05{
+    width: 326px;
+    height: 326px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    opacity: 0.08;
+    position: absolute;
+    top: 552px;
+    left: 100px;
+    z-index: 1;
+}
+.circle06{
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    opacity: 0.41;
+    position: absolute;
+    top: 586px;
+    left: 294px;
+    z-index: 1;
+}
+
+input{
+    display: block;
+    width: 256px;
+    height: 37px;
+    font-size: 1.4rem;
+    margin: 20px auto;
+    padding: 0 10px;
+    border: 1px solid #60250B;
+    border-radius: 10px;
+    position: relative;
+    z-index: 10;
+}
+.text{
+    width: 276px;
+    color: #60250B;
+    margin: 0 auto;
+    text-align: right;
+    position: relative;
+}
+
+button{
+    // width: 120px;
+    // height: 44px;
+    color: #FFFFFF;
+    font-size: 2rem;
+    border: #60250B solid 1px;
+    border-radius: 10px;
+    margin-top: 22%;
+    position: relative;
+    z-index: 10;
+}
+.back{
+    background: #B9B9B9;
+    padding: 10px 40px;
+    margin-right: 10px;
+    box-shadow: 0px 4px #E2B6B0;
+}
+.next{
+    background: #40BBF3;
+    padding: 10px 40px;
+    box-shadow: 0px 4px #E2B6B0;
+}
+.buton{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.next_circle{
+    // display: flex;
+   text-align: center;
+   margin-top: 30px;
+}
+.next_circle01{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    background: #707070;
+}
+.next_circle02{
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #CECECE;
+}
+
+.circle-deep01{
+    animation-name: circle-deep_animetion;
+    animation-direction: 10s;
+    width: 17px;
+    height: 17px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    opacity: 0.85;
+    position: absolute;
+    top: 178px;
+    left: 12px;
+    z-index: 1;
+}
+.circle-deep02{
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    opacity: 0.85;
+    position: absolute;
+    top: 207px;
+    left: 52px;
+    z-index: 10;
+}
+.circle-deep03{
+    width: 53px;
+    height: 53px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    opacity: 0.85;
+    position: absolute;
+    top: 213px;
+    left: 211px;
+    z-index: 1;
+}
+.circle-deep04{
+    width: 34px;
+    height: 34px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    opacity: 0.85;
+    position: absolute;
+    top: 179px;
+    left: 264px;
+    z-index: 1;
+}
+.circle-deep05{
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    opacity: 0.85;
+    position: absolute;
+    top: 235px;
+    left: 301px;
+    z-index: 1;
+}
+.circle-deep06{
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    opacity: 0.85;
+    position: absolute;
+    top: 188px;
+    left: 339px;
+    z-index: 1;
+}

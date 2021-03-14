@@ -1,0 +1,57 @@
+.objects {
+  background: repeating-linear-gradient(
+    90deg,
+    #ede7c8 0px,
+    #ede7c8 15px,
+    #f3f0da 15px,
+    #f3f0da 30px
+  );
+  height: 35vh;
+  position: relative;
+  border-bottom: 16px solid #7b5842;
+  z-index: $background;
+}
+.character {
+  width: 40vw;
+  max-width: 180px;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  right: -50px;
+  margin: auto;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.obj-middle {
+  position: absolute;
+  z-index: -1000;
+  height: 35vh;
+  width: 100vw;
+  &__item {
+    position: absolute;
+    z-index: $object;
+    max-width: 100px;
+    &--one {
+      top: 30px;
+      left: 10px;
+    }
+    &--two {
+      width: 40px;
+      right: 27px;
+      top: 6px;
+    }
+    &--three {
+      bottom: -10px;
+      width: 45px;
+    }
+    &--four {
+      bottom: -20px;
+      left: 60px;
+      width: 70px;
+    }
+    &--five {
+      right: 0;
+      bottom: 0;
+    }
+  }
+}

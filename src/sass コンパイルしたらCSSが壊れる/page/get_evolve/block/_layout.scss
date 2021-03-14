@@ -1,0 +1,13 @@
+.layout {
+  background: linear-gradient(
+    to bottom,
+    #fea8ab 0,
+    #ffe577 35%,
+    #ffe577 60%,
+    #ff9189 100%
+  );
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}

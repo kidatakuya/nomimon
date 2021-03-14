@@ -1,0 +1,14 @@
+.header {
+  &__heading {
+    height: 28vh;
+    padding-top: 50px;
+    width: 100%;
+    z-index: 100;
+    position: absolute;
+    background: url($img_page+"obj-cloud.svg") no-repeat center center;
+    img {
+      filter: saturate(150%);
+      margin: 0 auto;
+    }
+  }
+}

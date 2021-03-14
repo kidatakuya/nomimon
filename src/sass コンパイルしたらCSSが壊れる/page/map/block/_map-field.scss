@@ -1,0 +1,42 @@
+.map-field {
+   height: calc(100% - 145px);
+   // overflow: hidden;
+   &-inner{
+      /* width: 1100px;
+      height: 400px; */
+      width: 500px;
+      height: 580px;
+
+      border: solid 1px red;
+      /* transform: translate(-1100px, -400px); */
+      background: pink;
+      transform: translate(-40px, 20px);
+      &-box{
+         background: blue;
+         height: 10px;
+         width: 10px;
+         margin: 16% auto;
+         touch-action: none;
+         user-select: none;
+         /* -webkit-transform: translate(0px, 0px); */
+         transform: translate(0px, 100px);
+         position: relative;
+         /* width: 20px;
+         height: 20px; */
+         overflow: visible;
+
+         img{
+            transform: scale(100);
+
+            position: absolute;
+            top: 320px;
+            left: 180px;
+            opacity: 0.5;
+            /* width: 100%; */
+         
+         }
+      
+      }
+   }
+}
+

@@ -1,0 +1,19 @@
+@charset "utf-8";
+html{
+    font-size: 62.5%;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+.wrap {
+    height: 100vh;
+    display: flex;
+    flex-direction: column; // 横並びを縦戻す
+    justify-content: center; // よこ
+    align-items: center; // 縦
+}
+.logo{ // h1
+    width: 10px;
+    transition: 2s ease;
+}
+.logo-animetion{ // img
+    width: 170px;
+}

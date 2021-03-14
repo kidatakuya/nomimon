@@ -1,0 +1,25 @@
+
+/* .cameraSystem{
+   display: none;
+} */
+
+#app,.camera,.wrapper,.inside,video{
+    width: 100%;
+    height: 100%;
+}
+
+.cameraSystem{
+    display: none;
+}
+
+video{
+    transform: scale(1.5);
+}
+
+.camera{
+    overflow: hidden;
+}
+
+.tracking-layer{
+    display: none;
+}

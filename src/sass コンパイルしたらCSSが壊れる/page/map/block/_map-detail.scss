@@ -1,0 +1,68 @@
+// PACK
+.map-detail {
+  padding: 40px 0 30px;
+  background: #f7f7f7;
+  position: absolute;
+  bottom: 0;
+  max-width: 414px;
+  transform: translateY(100%);
+  transition: 0.5s ease;
+  &::before {
+    content: "";
+    display: block;
+    width: 58px;
+    height: 6px;
+    background: #fbb9bb;
+    border-radius: 7px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  &__item {
+    width: 95%;
+    padding: 15px 20px;
+    margin: 0 auto 20px;
+    border-radius: 15px;
+    border: 1px solid #707070;
+  }
+
+  &__head {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__name {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  &__distance {
+    font-family: $numFont;
+  }
+  &__experience {
+    display: flex;
+    align-items: center;
+    color: #e6373b;
+    font-weight: bold;
+    img {
+      margin-right: 5px;
+      max-width: 17px;
+    }
+  }
+  &__img {
+    width: 180px;
+    height: 110px;
+    background: url($img_page+"img-starbucks.jpg") no-repeat center center /
+      cover;
+  }
+  &__container {
+    display: flex;
+  }
+  &__wrapper {
+    margin-left: 14px;
+  }
+  &__stats {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 48 48">
+      <image width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADSUlEQVRogdVZ23XqMBB0CZRACekg/rRmfc6lg0sJdAAl0EHcAXQAHZgO4g6gA+cju2SjrARYMo85hx/bSPsY7Y6korgRAP4B+CCiHYBPIur5d+RnSwBvt447KqqqmrLRR2XwAcAewJqIDup5T0Q9O/f/0bYXAJZiOBs8L8tyor+pqmrqO6AcaR+SkbIsJ0S0E3o452ax74moCTlBREcA8zuZ/m08gNYwYhn6D4C3gPELodjdnFCRNylRVdU04MTJ/76u65KzeSCi/lImkwFgFaGCzsYfXgPY+9/KeuGsdkR0DAUgGbHFaGWCM7Xj8vnhZw5A5zkoNGtGcUAvRK44e4sW6psTR/1PGeX369AcdV2XWY1nnprRKcty4pyb6XLqG8AUWWmHLapIlgFsszoAYB5bZGptNLFx2MBDiOsciKCDgwFgC+AUMaoHsL9yLOH6Tj/nLOtu3qRb/jNpGzKQ5cJNEROu6/8A2PjrJFsWQrxkHdQS0eGW8VRFa3j8RWChr3I6cB7MOTfT3fha+nhjNrKuPOr86im+tkpywNNAfYoDdV2XF/pJky0LPNDG0/i/5PGQca3urOkKoBs6tj9RF2tYQ5uPlQUAndBGyney0KOAHOZua5bFa+EHxw9ElixIJPyfNDarLA4Z2+K7NMkkpcpS4ORF/1xW/bI4wImOiPoLcw/KsJ5kbfFUIFkYUvakD1hc15uhJJGn5bQ1kOiYIZNIlAG0xvNPK+uDEOO6VJShXBWu6wDorGeRF0q4bQwDNikT+FzXytRvcIMdYEPX4oRz7t059y7GW5uUW0BqQxORF+kiz+oLqcYXxVXb1ibXXKJE50S0yLn5iDTNfVGc5UcekTcGrDMkACcJkhSLbFJ7DPgiz69scgTzKPsuQos8q/ZnE3ljgvg4JnLSl0dqj4VYlLlaHZ8+C6Eoe4fLaSJvTFhZsM5ns5/k5YIv8iLH9E+dhfOGJrQnzyIvxoISeaY2ArDNIvLGREheEB+opWxp74KQyJOLFCUv0kXeWDCysNDvX0rkWSeBLyXyQnfLLyPyQlGWkntns24DizyT6/R9oWhexDwNlLxYBp4/byUS0M/tfsun5iLuDk9bhTTUrWfHjnRyf6G/+wL22uxBFrS6bgAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <g id="グループ_740" data-name="グループ 740" transform="translate(-292 -550)">
+    <circle id="楕円形_8" data-name="楕円形 8" cx="20.5" cy="20.5" r="20.5" transform="translate(292 550)" fill="#707070" opacity="0.172"/>
+    <rect id="キャンディーケインアイコン4" width="26" height="27" transform="translate(300 557)" fill="url(#pattern)"/>
+  </g>
+</svg>

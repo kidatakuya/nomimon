@@ -1,0 +1,16 @@
+.btn {
+  a {
+    padding: 11px 43px;
+    border: solid 2px rgba(96, 37, 11, 0.7);
+    display: inline-block;
+    border-radius: 8px;
+  }
+
+  &--color1 > a {
+    font-weight: bold;
+    background: $mainColor;
+    color: $white;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+  }
+}

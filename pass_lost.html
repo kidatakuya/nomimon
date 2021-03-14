@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/ress.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/pass_lost.css">
+    <title>パスワード忘れた</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="test">
+            <div class="circle01"></div>
+            <div class="circle02"></div>
+            <div class="circle03"></div>
+            <h1 class="logo">パスワードを忘れた</h1>
+            <div class="circle-deep01"></div>
+            <div class="circle-deep02"></div>
+            <div class="circle-deep03"></div>
+            <div class="circle-deep04"></div>
+            <div class="circle-deep05"></div>
+            <div class="circle-deep06"></div>
+            <p class="text">登録されたメールアドレスを入力いただければ、<br>
+                パスワード変更メールを送信します。
+            </p>
+            <form action="">
+                <input id="mail" type="mail" placeholder="mail address">
+            </form>
+            <div class="buton">
+                <a href="login.html"><button class="back" onfocus="this.blur();">戻る</button></a>
+                <a href=""><button id="next" class="next" onfocus="this.blur();">送信</button></a>
+            </div>
+            
+    </div>
+    
+        <div class="circle04"></div>
+        <div class="circle05"></div>
+        <div class="circle06"></div>
+    </div>
+</body>
+<script>
+    document.getElementById("next").onclick=function(){
+
+        let mail=document.getElementBy("mail").value;
+        let regexp=  /^[a-zA-Z0-9.!#$%&‘*+\/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+        if(regexp.test(mail)){
+            
+        }
+
+    }
+    
+
+</script>
+</html>

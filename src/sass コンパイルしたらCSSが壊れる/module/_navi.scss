@@ -1,0 +1,38 @@
+.g-nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%);
+  background: rgba(255, 255, 255, 0.6);
+  transition: 0.5s ease;
+  right: 0;
+  &__list {
+    max-width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 15px 0 10px;
+    text-align: center;
+    a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      margin: 0 auto;
+    }
+    img {
+      margin: 0 auto;
+    }
+    span {
+      display: inline-block;
+      margin: 3px 0 0 0;
+    }
+  }
+  &__txt {
+    color: #60250b;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+}

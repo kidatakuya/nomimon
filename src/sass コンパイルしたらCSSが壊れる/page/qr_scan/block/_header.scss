@@ -1,0 +1,25 @@
+.header {
+  position: relative;
+  padding: 36px 0 11px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  .back-btn {
+    position: absolute;
+    left: 23px;
+    bottom: 0px;
+    a {
+      display: inline-block;
+      padding: 10px;
+    }
+  }
+  &__heading {
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: center;
+    img {
+      width: 25px;
+      height: 25px;
+      margin-right: 8px;
+    }
+  }
+}

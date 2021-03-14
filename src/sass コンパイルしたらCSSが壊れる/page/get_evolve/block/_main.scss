@@ -1,0 +1,17 @@
+.main {
+  &__container {
+    height: 100vh;
+  }
+}
+
+.get-evolve {
+  margin: 0 -20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(-35px);
+  img {
+    width: 120%;
+  }
+}

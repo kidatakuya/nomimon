@@ -1,0 +1,24 @@
+.qrContent {
+  color: $qrTxt;
+  text-align: center;
+  height: 62%;
+  transform: translateY(-80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &__ttl {
+    font-size: 2.4rem;
+  }
+  &__time {
+    font-size: 1.6rem;
+  }
+  &__scan {
+    width: 256px;
+    height: 256px;
+    background: $white;
+    margin: 0 auto;
+  }
+  &__note {
+    font-size: 1.2rem;
+  }
+}

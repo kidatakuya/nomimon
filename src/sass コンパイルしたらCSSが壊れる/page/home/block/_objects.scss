@@ -1,0 +1,54 @@
+.objects {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80vh;
+  background: repeating-linear-gradient(
+    90deg,
+    #ede7c8 0px,
+    #ede7c8 15px,
+    #f3f0da 15px,
+    #f3f0da 30px
+  );
+  z-index: $background;
+  border-bottom: 16px solid #7b5842;
+}
+
+.obj-top {
+  &__item {
+    position: absolute;
+    z-index: $object;
+    &--two {
+      right: 0;
+    }
+  }
+}
+
+.obj-middle {
+  height: 100%;
+  &__item {
+    position: absolute;
+    transition: 0.5s ease;
+    opacity: 0;
+    &--one {
+      bottom: 160px;
+      left: 30px;
+    }
+    &--two {
+      bottom: 210px;
+      right: 57px;
+    }
+    &--three {
+      bottom: -20px;
+    }
+    &--four {
+      bottom: -30px;
+      left: 73px;
+    }
+    &--five {
+      bottom: -20px;
+      right: 23px;
+    }
+  }
+}

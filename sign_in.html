@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/ress.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/sign_in.css">
+    <title>新規登録</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="circle01"></div>
+        <div class="circle02"></div>
+        <div class="circle03"></div>
+        <h1 class="logo" id="animetion">新規登録</h1>
+        <div class="circle-deep01"></div>
+        <div class="circle-deep02"></div>
+        <div class="circle-deep03"></div>
+        <div class="circle-deep04"></div>
+        <div class="circle-deep05"></div>
+        <div class="circle-deep06"></div>
+        <form action="php/register.php" method="POST">
+            <input id="mail" class="mail" type="mail" name="mail" value="" placeholder="mail address">
+            <input id="pass" class="pass" name="pass" type="password" value="" placeholder="パスワード">
+
+            <p class="text">半角英数８文字以上で入力してくでさい。</p>
+        <div class="buton">
+            <a href="start.html"><button class="back" onfocus="this.blur();">戻る</button></a>
+            <button type="submit" class="next" id="next" onfocus="this.blur();">次へ</button>
+        </div>
+        </form>
+        <div class="next_circle">
+            <div class="next_circle01"></div>
+            <div class="next_circle02"></div>
+        </div>
+        <div class="circle04"></div>
+        <div class="circle05"></div>
+        <div class="circle06"></div>
+    </div>
+</body>
+<script>
+
+    document.getElementById("next").onclick =function(){
+        let pass = document.getElementById("pass").value.length;
+        let mail = document.getElementById("mail").value;
+        let regexp=  /^[a-zA-Z0-9.!#$%&‘*+\/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+        console.log(mail);
+        if(regexp.test(mail)){
+            // console.log("match")
+            if( pass >= 8){
+                location.href="character_name.html";
+            } else {
+                alert("パスワードが間違っています");
+                return false;
+            }
+        } else{
+            alert("メールアドレスが間違っています。");
+            return false;
+        }
+    }
+
+</script>
+</html>
